@@ -32,6 +32,7 @@ func SolutionFirstPart() int {
 	if err != nil {
 		return 0
 	}
+	defer f.Close()
 
 	s := bufio.NewScanner(f)
 	s.Split(bufio.ScanLines)
@@ -58,6 +59,7 @@ func SolutionSecondPart() int {
 	if err != nil {
 		return 0
 	}
+	defer f.Close()
 
 	s := bufio.NewScanner(f)
 	s.Split(bufio.ScanLines)
