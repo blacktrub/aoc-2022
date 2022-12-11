@@ -8,6 +8,7 @@ import (
 	"aoc-2022/internal/task5"
 	"aoc-2022/internal/task6"
 	"aoc-2022/internal/task7"
+	"aoc-2022/internal/task8"
 	"fmt"
 )
 
@@ -26,4 +27,6 @@ func main() {
 	fmt.Println(task6.SolutionSecondPart())
 	fmt.Println(task7.SolutionFirstPart())
 	fmt.Println(task7.SolutionSecondPart())
+	fmt.Println(task8.SolutionFirstPart())
+	fmt.Println(task8.SolutionSecondPart())
 }
