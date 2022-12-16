@@ -2,6 +2,7 @@ package main
 
 import (
 	"aoc-2022/internal/task1"
+	"aoc-2022/internal/task10"
 	"aoc-2022/internal/task2"
 	"aoc-2022/internal/task3"
 	"aoc-2022/internal/task4"
@@ -32,4 +33,6 @@ func main() {
 	fmt.Println(task8.SolutionSecondPart())
 	fmt.Println(task9.SolutionFirstPart())
 	fmt.Println(task9.SolutionSecondPart())
+	fmt.Println(task10.SolutionFirstPart())
+	fmt.Println(task10.SolutionSecondPart())
 }
